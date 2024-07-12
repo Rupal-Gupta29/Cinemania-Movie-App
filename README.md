@@ -30,10 +30,10 @@ These features provide a comprehensive and engaging experience for users to expl
 ### Search Page
 ![search page](https://github.com/user-attachments/assets/e3115450-4a61-4173-bb0e-c2abe6d80009)
 
-### Responsiveness
-![home-m](https://github.com/user-attachments/assets/8878804f-532a-4475-b66d-06b969a125b1)
-![detailed-m](https://github.com/user-attachments/assets/b07e3f1e-f71e-4a2b-8449-58481c356791)
-![favourites-m](https://github.com/user-attachments/assets/c968bf13-4e64-4d75-8ba8-fd210b8a9bbb)
+### Mobile View
+![home-m](https://github.com/user-attachments/assets/dde2e2fb-a8d1-42ea-808a-d356be70db53)
+![detailed-m](https://github.com/user-attachments/assets/bdd92f56-e479-4e53-8cbb-01859f84378e) 
+![favourites-m](https://github.com/user-attachments/assets/2dda2fac-3371-4ea3-8503-f51c39e0d8d2)  
 
 
 # React + Vite
