@@ -1,0 +1,44 @@
+.cardsWrapper {
+  width: 50%;
+  margin: auto;
+  border: 1px solid var(--tertiaryColor);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.cardsWrapper a {
+  color: var(--primaryLight);
+  text-decoration: none;
+}
+
+.cardsWrapper a p {
+  color: var(--tertiaryColor);
+}
+
+.searchHeading {
+  padding-left: 30px;
+}
+
+.searchCard {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid var(--tertiaryColor);
+  padding: 10px;
+}
+
+.posterImg {
+  height: 100px;
+  border-radius: 10px;
+}
+
+.noPosterImg {
+  width: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .cardsWrapper {
+    width: 70%;
+    margin: auto;
+  }
+}

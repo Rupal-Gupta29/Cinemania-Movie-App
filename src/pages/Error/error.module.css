@@ -1,0 +1,21 @@
+.errorWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.errorWrapper a {
+  font-size: larger;
+  color: var(--primaryLight);
+  text-decoration: none;
+  background: var(--appColor);
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+.errorImg {
+  max-width: 600px;
+  margin-top: 60px;
+}

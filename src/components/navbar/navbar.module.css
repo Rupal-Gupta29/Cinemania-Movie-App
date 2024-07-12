@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+.navItemsWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navLinksWrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navItem {
+  color: white;
+  text-decoration: none;
+}
+
+.activeItem {
+  color: var(--appColor);
+}
+
+.searchInp {
+  width: 200px;
+  padding-left: 10px;
+  border: none;
+  padding: 5px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.searchBtn {
+  background-color: var(--appColor);
+  color: var(--primaryLight);
+  border: none;
+  padding: 5px 15px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navLinksWrapper {
+    flex-direction: column;
+  }
+}

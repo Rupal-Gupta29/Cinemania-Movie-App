@@ -1,0 +1,121 @@
+.detailsPageContainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.containerHeader {
+  display: flex;
+  gap: 20px;
+}
+
+.unavailableContainer {
+  flex-grow: 1;
+}
+
+.trailerWrapper,
+.trailerWrapper iframe {
+  max-height: 700px;
+  min-height: 700px;
+  width: 100%;
+}
+
+.posterWrapper {
+  min-width: 300px;
+}
+
+.posterWrapper img {
+  height: 100%;
+}
+
+.noPosterImg {
+  width: 250px;
+}
+
+.detailsHeader {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.movieTitle {
+  font-size: 1.5rem;
+}
+
+.genresWrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.genresWrapper span {
+  border: 2px solid var(--tertiaryColor);
+  background-color: transparent;
+  padding: 0px 10px;
+  font-size: smaller;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.tagLine {
+  color: var(--tertiaryColor);
+}
+
+.infoWrapper {
+  display: flex;
+  gap: 10px;
+  font-size: small;
+}
+
+.infoWrapper span {
+  padding-right: 10px;
+}
+
+.divider {
+  border-right: 1px solid var(--tertiaryColor);
+}
+
+.unavailableContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--secondaryColor);
+  border-radius: 10px;
+  height: 250px;
+}
+
+.noVideoIcon {
+  font-size: 100px;
+  color: var(--tertiaryColor);
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 900px) {
+  .detailsPageContainer {
+    width: 90%;
+  }
+
+  .infoWrapper {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .detailsHeader {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .genresWrapper {
+    flex-wrap: wrap;
+  }
+
+  .containerHeader {
+    flex-direction: column;
+  }
+
+  .posterWrapper {
+    text-align: center;
+  }
+}

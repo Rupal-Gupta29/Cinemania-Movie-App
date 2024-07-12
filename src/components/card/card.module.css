@@ -1,0 +1,42 @@
+.card {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  border: 1px solid var(--tertiaryColor);
+  border-radius: 10px;
+}
+
+.cardImg {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--tertiaryColor);
+}
+
+.cardBody {
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.ratingIcon {
+  color: #ffd43b;
+}
+
+.favIcon {
+  color: red;
+  font-size: 20px;
+  transition: ease-in-out;
+}
+
+.heartIcon {
+  color: var(--tertiaryColor);
+  font-size: 14px;
+}

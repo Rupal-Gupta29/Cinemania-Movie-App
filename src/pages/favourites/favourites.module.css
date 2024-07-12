@@ -1,0 +1,22 @@
+.heading {
+  border-left: 5px solid var(--appColor);
+  padding-left: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.hearderWrapper {
+  padding: 0px 40px;
+}
+
+.subHeading {
+  color: var(--appColor);
+  font-weight: lighter;
+}
+
+.noFavourites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
