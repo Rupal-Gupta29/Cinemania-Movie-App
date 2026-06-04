@@ -1,4 +1,4 @@
-# Cinemania
+# Cinemania - https://cinemania-movie.netlify.app/
 I've developed a web app called Cinemania using React, Redux Toolkit, and React Router DOM for client-side navigation. Cinemania utilizes the TMDB API to fetch and display the latest, top-rated, upcoming, and popular movies and TV shows. Key features include:
 
 1. Adding movies or shows to a favorites section.
