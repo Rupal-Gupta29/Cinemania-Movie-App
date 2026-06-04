@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         <div>
           <NavLink to={"/"} className={styles.logo + " " + styles.navItem}>
-            Cinemania App
+            Cinemania
           </NavLink>
         </div>
         <div className={styles.navItemsWrapper}>
